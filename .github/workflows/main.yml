@@ -14,3 +14,7 @@ jobs:
         run: pwd
       - name: "Testing printing"
         run: echo Ahmed
+        - uses: actions/checkout@v3
+          - name: " login to dockerhub"    
+            run: docker login --username ali11 --password dckr_pat_BhooO4tFp93d9gGXFWmwOFGvYFk
+

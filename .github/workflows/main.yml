@@ -5,7 +5,6 @@ characteristic:
   height:175
   skincolor:''
 
-/////////////////////////////////////////////////////
 on:
   push:
    /*what is the branch*/

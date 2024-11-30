@@ -12,5 +12,3 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Login to DockerHub
-        run: echo "${{ secrets.dckr_pat_BhooO4tFp93d9gGXFWmwOFGvYFk }}" | docker login --username "${{ secrets.ahmedkhalid25 }}" --password-stdin

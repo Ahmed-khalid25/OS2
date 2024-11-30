@@ -1,25 +1,16 @@
-name: "ahmed khalid"
-
-characteristic:
-  age:20
-  height:175
-  skincolor:''
+name: "Ahmed Khalid"
 
 on:
   push:
-   /*what is the branch*/
     branches:
       - master
 
-
-
 jobs:
   build:
-    /*what is the machine type*/
-    runs-on: ubuntu-latest 
-    /*array*/
+    runs-on: ubuntu-latest
+
     steps:
-      - name: "testing github actions"
+      - name: "Testing GitHub actions"
         run: pwd
-      - name: "testing printing"
-        run: echo ahmed
+      - name: "Testing printing"
+        run: echo Ahmed
